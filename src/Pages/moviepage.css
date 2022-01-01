@@ -1,0 +1,28 @@
+.moviepage {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  position: relative;
+}
+.moviepage-watch {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  border: none;
+  font-size: 1.3rem;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+}
+.moviepage-watch:hover {
+  transform: scale(1.1);
+}

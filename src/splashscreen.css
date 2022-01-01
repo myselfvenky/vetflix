@@ -1,0 +1,12 @@
+.splashscreen {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(145deg, #000, #111);
+  display: grid;
+  place-items: center;
+  font-family: "Lato", sans-serif;
+}
+.h1 {
+  font-size: 5rem;
+  color: #fff;
+}
